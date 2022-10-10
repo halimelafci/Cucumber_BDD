@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="28.599">
+    <testcase classname="Parametre Kullanimi" name="TC01 parametre kullaniminda ConfigReader kullanimi" time="10.323">
+        <system-out>
+            <![CDATA[Given kullanici "facebookUrl" sayfasina gider...............................passed
+And kullanici 3 saniye bekler...............................................passed
+When url'nin "facebook" icerdigini test edelim..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Parametre Kullanimi" name="TC02 Parametre kullaniminda ConfigReader Kullanimi" time="2.235">
+        <system-out>
+            <![CDATA[Given kullanici "google" sayfasina gider....................................passed
+When url'nin "google" icerdigini test edelim................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Parametre Kullanimi" name="TC03 Parametre kullaniminda ConfigReader Kullanimi" time="4.077">
+        <system-out>
+            <![CDATA[Given kullanici "blueRentaCarUrl" sayfasina gider...........................passed
+And kullanici 3 saniye bekler...............................................passed
+When url'nin "blue" icerdigini test edelim..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Parametre Kullanimi" name="TC04 Parametre kullaniminda ConfigReader Kullanimi" time="11.588">
+        <system-out>
+            <![CDATA[Given kullanici "amazonUrl" sayfasina gider.................................passed
+When url'nin "amazon" icerdigini test edelim................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
