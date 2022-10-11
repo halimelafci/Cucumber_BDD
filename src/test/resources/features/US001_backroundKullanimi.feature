@@ -1,5 +1,5 @@
 
-@Background
+@paralel2
 Feature: US001 Backround Kullanimi
 
 
