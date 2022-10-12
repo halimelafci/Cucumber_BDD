@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.496">
-    <testcase classname="Amazon practice" name="Amazon Sign in Test" time="26.293">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.769">
+    <testcase classname="Class Calismasi" name="TC12 kullanici yeni kayit ekleyebilmeli" time="6.56">
         <system-out>
-            <![CDATA[Given kullanici Amazon web sitesine gider...................................passed
-When sign in butonuna tiklar................................................passed
-And faker kullanarak e-posta gonderir.......................................passed
-And gonderdigi e-postanin ekran goruntusunu alir............................passed
-And continiue'a tiklar......................................................passed
-Then There was a problem mesajini dogrular..................................passed
-And Need help e tiklar......................................................passed
-And forgot your password e tiklar...........................................passed
-And Password assistance metnini dogrular....................................passed
-And Geri gider..............................................................passed
-And Create your account butonuna tiklar.....................................passed
-Then Create account metnini dogrular........................................passed
-And sayfayi kapatir.........................................................passed
+            <![CDATA[When kullanici "datatableUrl" ana sayfasinda................................passed
+Then new butonuna basar.....................................................passed
+And isim bolumune "halime" girer............................................passed
+And soyisim bolumune "lafci" girer..........................................passed
+And position bolumune "QA" girer............................................passed
+And ofis bolumune "ofis" girer..............................................passed
+And extension bolumune "QA" girer...........................................passed
+And Start date bolumune "2022-10-12"  girer.................................passed
+And Salary bolumune "50.000" girer..........................................passed
+And Create tusuna basar.....................................................passed
+When kullanici "halime" ile arama yapar.....................................passed
+Then isim bolumunde "halime" oldugunu dogrular..............................passed
 ]]>
         </system-out>
     </testcase>
