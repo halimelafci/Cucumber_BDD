@@ -46,6 +46,13 @@ public class BlueRentaCarDefinitions {
     }
 
 
+    @And("{string} username girer")
+    public void usernameGirer(String gecersizusername) {
+        blueRentaCarPage.email.sendKeys(gecersizusername);
+    }
 
-
+    @And("{string} password girer")
+    public void passwordGirer(String gecersizpassword) {
+        actions.sendKeys(Keys.TAB).sendKeys(gecersizpassword).perform();
+    }
 }
