@@ -11,14 +11,15 @@ import org.junit.runner.RunWith;
         plugin = {"html:target\\cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml"},
-        tags = "@outline",
-        dryRun = false
+        tags = "@amazonTest",
+        dryRun = true
 )
 
 
 
 
 public class Runner {
+
     /*
      Runner Class'ı TestNG'deki XMl mantığı ile çalışır. Çalıştırmak istediğimiz senartolara tag belirtiriz
     ve belirttiğimiz tag'ları çalıştırır. XMl deki gibi istediğimiz testleri çalıştırmak için kullanırız.

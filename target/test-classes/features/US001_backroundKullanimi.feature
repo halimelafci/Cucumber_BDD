@@ -14,11 +14,11 @@ Feature: US001 Backround Kullanimi
 
 
     Scenario: TC02 Kullanci amazonda selenium aratir
-    Then kullanici selenium aratir
-    And  sonuclarin selenium icerdigini test eder
+    Then kullanici Selenium icin arama yapar
+    And  sonuclarin Selenium icerdigini test eder
 
 
     Scenario: TC03 Kullanciamazonda iphone aratir
-    Then Kullanici iphone aratir
+    Then kullanici iphone icin arama yapar
     And  sonuclarin iphone icerdigini test eder
-    And  sayfayi kapatin
+    And  sayfayi kapatir

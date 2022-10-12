@@ -10,4 +10,4 @@
 
       Examples:
         | istenenKelime | istenenKelimeKontrol |
-      |   nutella |   nutella                 |
+      |   nutella |          nutella        |

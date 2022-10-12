@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="56.682">
-    <testcase classname="US007 Scenario Outline Kullanimi" name="TC01 ConfigReader ile Scenario kullanimi" time="20.042">
-        <system-out>
-            <![CDATA[Given kullanici "amazonUrl" sayfasina gider.................................passed
-And kullanici 3 saniye bekler...............................................passed
-When url'nin "amazon" icerdigini test edelim................................passed
-And sayfayi kapatir.........................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.378">
+    <testcase classname="Amazon practice" name="Amazon Sign in Test" time="0.123">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici Amazon web sitesine gider...................................undefined
+When sign in butonuna tiklar................................................skipped
+And faker kullanarak e-posta gonderir.......................................skipped
+And gonderdigi e-postanin ekran goruntusunu alir............................skipped
+And continiue'a tiklar......................................................skipped
+Then There was a problem mesajini dogrular..................................skipped
+And Need help e tiklar......................................................skipped
+And forgot your password e tiklar...........................................skipped
+And Password assistance metnini dogrular....................................skipped
+And Geri gider..............................................................skipped
+And Create your account butonuna tiklar.....................................skipped
+Then Create account metnini dogrular........................................skipped
+And sayfayi kapatir.........................................................skipped
 ]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US007 Scenario Outline Kullanimi" name="TC01 ConfigReader ile Scenario kullanimi 2" time="11.492">
-        <system-out>
-            <![CDATA[Given kullanici "facebookUrl" sayfasina gider...............................passed
-And kullanici 3 saniye bekler...............................................passed
-When url'nin "facebook" icerdigini test edelim..............................passed
-And sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US007 Scenario Outline Kullanimi" name="TC01 ConfigReader ile Scenario kullanimi 3" time="16.862">
-        <system-out>
-            <![CDATA[Given kullanici "hepsiburadaUrl" sayfasina gider............................passed
-And kullanici 3 saniye bekler...............................................passed
-When url'nin "hepsi" icerdigini test edelim.................................passed
-And sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US007 Scenario Outline Kullanimi" name="TC01 ConfigReader ile Scenario kullanimi 4" time="8.065">
-        <system-out>
-            <![CDATA[Given kullanici "blueRentaCarUrl" sayfasina gider...........................passed
-And kullanici 3 saniye bekler...............................................passed
-When url'nin "blue" icerdigini test edelim..................................passed
-And sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>
