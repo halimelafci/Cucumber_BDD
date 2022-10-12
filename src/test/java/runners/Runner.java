@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml"},
         tags = "@amazonTest",
-        dryRun = true
+        dryRun = false
 )
 
 
