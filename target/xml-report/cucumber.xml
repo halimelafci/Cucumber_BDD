@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.769">
-    <testcase classname="Class Calismasi" name="TC12 kullanici yeni kayit ekleyebilmeli" time="6.56">
-        <system-out>
-            <![CDATA[When kullanici "datatableUrl" ana sayfasinda................................passed
-Then new butonuna basar.....................................................passed
-And isim bolumune "halime" girer............................................passed
-And soyisim bolumune "lafci" girer..........................................passed
-And position bolumune "QA" girer............................................passed
-And ofis bolumune "ofis" girer..............................................passed
-And extension bolumune "QA" girer...........................................passed
-And Start date bolumune "2022-10-12"  girer.................................passed
-And Salary bolumune "50.000" girer..........................................passed
-And Create tusuna basar.....................................................passed
-When kullanici "halime" ile arama yapar.....................................passed
-Then isim bolumunde "halime" oldugunu dogrular..............................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.702">
+    <testcase classname="Cucumber Java Manipulation" name="practice click and Keys" time="0.093">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given "https://testpages.herokuapp.com/styled/key-click-display-test.html" adresine gidin.undefined
+And 50 defa click me ye tiklayin............................................skipped
+And 50 defa Space dugmesine basin...........................................skipped
+And Down yazisindaki iki basamakli sayilarin hepsini toplayin...............skipped
+And Tum click metinlerinin uzunlugunun toplamini onceki toplamdan cikarin...skipped
+Then sonucun 1100 oldugunu dogrulayin.......................................skipped
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>

@@ -3,6 +3,7 @@ package stepDefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import pages.DatabasePage;
@@ -67,11 +68,17 @@ public class EditorDatatablesStepDefinitions {
         databasePage.createButon.click();
     }
     @When("kullanici {string} ile arama yapar")
-    public void kullaniciIleAramaYapar(String arg0) {
+    public void kullaniciIleAramaYapar(String firstname) {
+        databasePage.searchBox.sendKeys(firstname);
+
     }
 
 
     @Then("isim bolumunde {string} oldugunu dogrular")
-    public void isimBolumundeOldugunuDogrular(String arg0) {
+    public void isimBolumundeOldugunuDogrular(String firstname) {
+        String expectedName=firstname;
+        String actualName=databasePage.nameGorunum.getText();
+        Assert.assertTrue(actualName.contains(expectedName));
+
     }
 }

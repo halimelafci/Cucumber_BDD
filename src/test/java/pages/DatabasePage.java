@@ -22,4 +22,10 @@ public class DatabasePage {
 
   @FindBy(xpath = "//input[@id=\"DTE_Field_start_date\"]")
   public WebElement date;
+
+  @FindBy(xpath = "//input[@type=\"search\"]")
+  public WebElement searchBox;
+
+  @FindBy(xpath = "//td[@class=\"sorting_1\"]")
+  public WebElement nameGorunum;
 }
