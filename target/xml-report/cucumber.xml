@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="21.151">
-    <testcase classname="US013 Class Work" name="TC14 Kullanici sutun basligi ile liste alabilmeli" time="12.614">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="31.947">
+    <testcase classname="Cucumber Java Manipulation" name="practice click and Keys" time="31.521">
         <system-out>
-            <![CDATA[Given kullanici "guruUrl" sayfasina gider...................................passed
-And "Group" sutunundaki tum degerleri yazdirir..............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US013 Class Work" name="TC14 Kullanici sutun basligi ile liste alabilmeli 2" time="3.044">
-        <system-out>
-            <![CDATA[Given kullanici "guruUrl" sayfasina gider...................................passed
-And "Prev Close (Rs)" sutunundaki tum degerleri yazdirir....................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US013 Class Work" name="TC14 Kullanici sutun basligi ile liste alabilmeli 3" time="2.336">
-        <system-out>
-            <![CDATA[Given kullanici "guruUrl" sayfasina gider...................................passed
-And "Current Price (Rs)" sutunundaki tum degerleri yazdirir.................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="US013 Class Work" name="TC14 Kullanici sutun basligi ile liste alabilmeli 4" time="2.534">
-        <system-out>
-            <![CDATA[Given kullanici "guruUrl" sayfasina gider...................................passed
-And "% Change" sutunundaki tum degerleri yazdirir...........................passed
+            <![CDATA[Given "https://testpages.herokuapp.com/styled/key-click-display-test.html" adresine gidin.passed
+And 50 defa click me ye tiklayin............................................passed
+And 50 defa Space dugmesine basin...........................................passed
+And Down yazisindaki iki basamakli sayilarin hepsini toplayin...............passed
+And Tum click metinlerinin uzunlugunun toplamini onceki toplamdan cikarin...passed
+Then sonucun 1100 oldugunu dogrulayin.......................................passed
 ]]>
         </system-out>
     </testcase>

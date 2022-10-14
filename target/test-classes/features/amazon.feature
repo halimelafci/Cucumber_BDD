@@ -9,22 +9,23 @@ Feature: Amazon Search
     @grup1
   Scenario: TC01 Kullanciamazonda nutella aratir
 
-    Given Kullanici amazon sayfasina gider
-    Then Kullanici nutella aratir
-    And  sonuclarin nutella icerdigini test eder
+    Given kullanici amazon sayfasina gider
+    Then kullanici Nutella icin arama yapar
+    And  sonuclarin Nutella icerdigini test eder
 
 
   @grup1
   Scenario: TC02 Kullanciamazonda selenium aratir
 
-    Given Kullanici amazon sayfasina gider
-    Then Kullanici selenium aratir
-    And  sonuclarin selenium icerdigini test eder
+    Given kullanici amazon sayfasina gider
+    Then kullanici Selenium icin arama yapar
+
+    And  sonuclarin Selenium icerdigini test eder
 
    @grup2
   Scenario: TC03 Kullanciamazonda iphone aratir
 
-    Given Kullanici amazon sayfasina gider
-    Then Kullanici iphone aratir
+    Given kullanici amazon sayfasina gider
+    Then kullanici iphone icin arama yapar
     And  sonuclarin iphone icerdigini test eder
-    And  sayfayi kapatin
+    And  sayfayi kapatir

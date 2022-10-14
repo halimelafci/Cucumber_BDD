@@ -59,14 +59,14 @@ public class PracticeTestPageStepDefinitions {
           clickToplam+= w.getText().length();
 
         }
-        sonuc=down32Toplam-clickToplam;
-        System.out.println("sonuc :"+sonuc);
+        sonuc = down32Toplam -clickToplam;
 
+        System.out.println("sonuc = " + sonuc);
     }
     @Then("sonucun {int} oldugunu dogrulayin")
     public void sonucun_oldugunu_dogrulayin(int result) {
 
-        Assert.assertEquals("sonuc esit degil"+result,sonuc);
+        Assert.assertEquals("sonuc esit degil :",result,(sonuc));
 
     }
 

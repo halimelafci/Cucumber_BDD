@@ -12,14 +12,14 @@ import org.junit.runner.RunWith;
         plugin = {"html:target\\cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml"},
-        tags = "@guru2",
+        tags = "@PracticeClick",
         dryRun = false
 )
 
 
 
 
-public class Runner {
+public class TestRunner {
 
     /*
      Runner Class'ı TestNG'deki XMl mantığı ile çalışır. Çalıştırmak istediğimiz senartolara tag belirtiriz

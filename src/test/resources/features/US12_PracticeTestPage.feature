@@ -8,4 +8,4 @@
      And 50 defa Space dugmesine basin
      And Down yazisindaki iki basamakli sayilarin hepsini toplayin
      And  Tum click metinlerinin uzunlugunun toplamini onceki toplamdan cikarin
-      Then sonucun 1100 oldugunu dogrulayin
+     Then sonucun 1100 oldugunu dogrulayin
