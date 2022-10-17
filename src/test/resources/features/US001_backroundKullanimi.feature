@@ -1,5 +1,5 @@
 
-@paralel2
+
 Feature: US001 Backround Kullanimi
 
 
@@ -16,6 +16,7 @@ Feature: US001 Backround Kullanimi
     Scenario: TC02 Kullanci amazonda selenium aratir
     Then kullanici Selenium icin arama yapar
     And  sonuclarin Selenium icerdigini test eder
+
 
 
     Scenario: TC03 Kullanciamazonda iphone aratir

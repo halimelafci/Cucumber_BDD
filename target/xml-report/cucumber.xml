@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="31.947">
-    <testcase classname="Cucumber Java Manipulation" name="practice click and Keys" time="31.521">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="39.561">
+    <testcase classname="US016 kullanici giris testi" name="TC14 kullanici sitede hesap olusturur" time="39.311">
         <system-out>
-            <![CDATA[Given "https://testpages.herokuapp.com/styled/key-click-display-test.html" adresine gidin.passed
-And 50 defa click me ye tiklayin............................................passed
-And 50 defa Space dugmesine basin...........................................passed
-And Down yazisindaki iki basamakli sayilarin hepsini toplayin...............passed
-And Tum click metinlerinin uzunlugunun toplamini onceki toplamdan cikarin...passed
-Then sonucun 1100 oldugunu dogrulayin.......................................passed
+            <![CDATA[Given kullanici "AutomationPracticeUrl" sayfasina gider.....................passed
+And kullanici user sign in linkine tiklar...................................passed
+And kullanici user Create and account bölümüne email adresi girer...........passed
+And kullanici Create an Account butonuna basar..............................passed
+And kullanici  user kisisel bilgilerini ve iletisim bilgilerini girer.......passed
+And kullanici  user Register butonuna basar.................................passed
+Then hesap olustugunu dogrulayin............................................passed
 ]]>
         </system-out>
     </testcase>

@@ -1,5 +1,5 @@
 
-
+    @grup2
     Feature: Parametre Kullanimi
     Scenario: TC01 parametre kullaniminda ConfigReader kullanimi
 

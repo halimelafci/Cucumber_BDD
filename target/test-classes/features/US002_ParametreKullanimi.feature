@@ -1,5 +1,5 @@
 
-  @paralel1
+
   Feature: US002 Parametre Kullanimi
   Background: Ortak adim
     Given kullanici amazon sayfasina gider
